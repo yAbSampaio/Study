@@ -1,0 +1,4 @@
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles/edit_cache.dir
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles/fmath.dir
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles/rebuild_cache.dir
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles/goku.dir

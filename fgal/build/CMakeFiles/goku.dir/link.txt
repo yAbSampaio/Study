@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/goku.dir/src/main.cpp.o  -o goku libfmath.a 

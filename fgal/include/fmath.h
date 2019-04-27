@@ -1,7 +1,6 @@
 #include <vector>
 
-class Ponto
-{
+class Ponto {
 private:
     int px;
     int py;
@@ -15,16 +14,20 @@ public:
 
 };
 
-class Vetor
-{
+class Vetor {
 private:
     Ponto point_beg;
     int py;
     int px;
+    float modulo;
 
 public:
-    void Input(Ponto P1,Ponto P2);
-    void Print();
     Vetor(){}
     ~Vetor(){}
+    void Input(Ponto P1,Ponto P2);
+    void Print();
+    void operator *(int A);
+    Vetor operator +(Vetor A);
 };
+
+float Module(int X, int Y);

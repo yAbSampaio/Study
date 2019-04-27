@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/fmath.h
+vector
+-
+
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/main.cpp
+iostream
+-
+vector
+-
+fmath.h
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/fmath.h
+

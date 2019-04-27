@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfmath.a  CMakeFiles/fmath.dir/src/fmath.cpp.o
+/usr/bin/ranlib libfmath.a
