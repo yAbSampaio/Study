@@ -1,1 +1,1 @@
-# Study
+# Repositorio feito pra guardar algoritmos feitos apenas em estudos independente
