@@ -57,27 +57,27 @@ include CMakeFiles/fmath.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fmath.dir/flags.make
 
-CMakeFiles/fmath.dir/src/fmath.cpp.o: CMakeFiles/fmath.dir/flags.make
-CMakeFiles/fmath.dir/src/fmath.cpp.o: ../src/fmath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fmath.dir/src/fmath.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fmath.dir/src/fmath.cpp.o -c /home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/fmath.cpp
+CMakeFiles/fmath.dir/src/operations/operations.cpp.o: CMakeFiles/fmath.dir/flags.make
+CMakeFiles/fmath.dir/src/operations/operations.cpp.o: ../src/operations/operations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fmath.dir/src/operations/operations.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fmath.dir/src/operations/operations.cpp.o -c /home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/operations.cpp
 
-CMakeFiles/fmath.dir/src/fmath.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fmath.dir/src/fmath.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/fmath.cpp > CMakeFiles/fmath.dir/src/fmath.cpp.i
+CMakeFiles/fmath.dir/src/operations/operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fmath.dir/src/operations/operations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/operations.cpp > CMakeFiles/fmath.dir/src/operations/operations.cpp.i
 
-CMakeFiles/fmath.dir/src/fmath.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fmath.dir/src/fmath.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/fmath.cpp -o CMakeFiles/fmath.dir/src/fmath.cpp.s
+CMakeFiles/fmath.dir/src/operations/operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fmath.dir/src/operations/operations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/operations.cpp -o CMakeFiles/fmath.dir/src/operations/operations.cpp.s
 
 # Object files for target fmath
 fmath_OBJECTS = \
-"CMakeFiles/fmath.dir/src/fmath.cpp.o"
+"CMakeFiles/fmath.dir/src/operations/operations.cpp.o"
 
 # External object files for target fmath
 fmath_EXTERNAL_OBJECTS =
 
-libfmath.a: CMakeFiles/fmath.dir/src/fmath.cpp.o
+libfmath.a: CMakeFiles/fmath.dir/src/operations/operations.cpp.o
 libfmath.a: CMakeFiles/fmath.dir/build.make
 libfmath.a: CMakeFiles/fmath.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfmath.a"

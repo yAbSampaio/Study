@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fmath.dir/src/fmath.cpp.o"
+  "CMakeFiles/fmath.dir/src/operations/operations.cpp.o"
   "libfmath.pdb"
   "libfmath.a"
 )

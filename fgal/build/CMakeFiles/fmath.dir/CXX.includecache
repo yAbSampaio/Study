@@ -6,17 +6,27 @@
 
 #IncludeRegexTransform: 
 
-../include/fmath.h
+../include/operations/operations.h
+
+../include/types/point.h
 vector
 -
 
-/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/fmath.cpp
-fmath.h
-/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/fmath.h
-vector
--
+../include/types/vector.h
+point.h
+../include/types/point.h
+
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/operations.cpp
+math.h
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/math.h
+operations/operations.h
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/operations/operations.h
+types/vector.h
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/types/vector.h
+types/point.h
+/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/operations/types/point.h
 iostream
 -
-math.h
-/home/ab/Workspace/FurgBot/Study_Cpp/Study/fgal/src/math.h
+vector
+-
 

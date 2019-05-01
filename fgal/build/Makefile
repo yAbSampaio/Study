@@ -136,33 +136,6 @@ goku/fast:
 	$(MAKE) -f CMakeFiles/goku.dir/build.make CMakeFiles/goku.dir/build
 .PHONY : goku/fast
 
-src/fmath.o: src/fmath.cpp.o
-
-.PHONY : src/fmath.o
-
-# target to build an object file
-src/fmath.cpp.o:
-	$(MAKE) -f CMakeFiles/fmath.dir/build.make CMakeFiles/fmath.dir/src/fmath.cpp.o
-.PHONY : src/fmath.cpp.o
-
-src/fmath.i: src/fmath.cpp.i
-
-.PHONY : src/fmath.i
-
-# target to preprocess a source file
-src/fmath.cpp.i:
-	$(MAKE) -f CMakeFiles/fmath.dir/build.make CMakeFiles/fmath.dir/src/fmath.cpp.i
-.PHONY : src/fmath.cpp.i
-
-src/fmath.s: src/fmath.cpp.s
-
-.PHONY : src/fmath.s
-
-# target to generate assembly for a file
-src/fmath.cpp.s:
-	$(MAKE) -f CMakeFiles/fmath.dir/build.make CMakeFiles/fmath.dir/src/fmath.cpp.s
-.PHONY : src/fmath.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -190,6 +163,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/goku.dir/build.make CMakeFiles/goku.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/operations/operations.o: src/operations/operations.cpp.o
+
+.PHONY : src/operations/operations.o
+
+# target to build an object file
+src/operations/operations.cpp.o:
+	$(MAKE) -f CMakeFiles/fmath.dir/build.make CMakeFiles/fmath.dir/src/operations/operations.cpp.o
+.PHONY : src/operations/operations.cpp.o
+
+src/operations/operations.i: src/operations/operations.cpp.i
+
+.PHONY : src/operations/operations.i
+
+# target to preprocess a source file
+src/operations/operations.cpp.i:
+	$(MAKE) -f CMakeFiles/fmath.dir/build.make CMakeFiles/fmath.dir/src/operations/operations.cpp.i
+.PHONY : src/operations/operations.cpp.i
+
+src/operations/operations.s: src/operations/operations.cpp.s
+
+.PHONY : src/operations/operations.s
+
+# target to generate assembly for a file
+src/operations/operations.cpp.s:
+	$(MAKE) -f CMakeFiles/fmath.dir/build.make CMakeFiles/fmath.dir/src/operations/operations.cpp.s
+.PHONY : src/operations/operations.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +200,12 @@ help:
 	@echo "... fmath"
 	@echo "... rebuild_cache"
 	@echo "... goku"
-	@echo "... src/fmath.o"
-	@echo "... src/fmath.i"
-	@echo "... src/fmath.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/operations/operations.o"
+	@echo "... src/operations/operations.i"
+	@echo "... src/operations/operations.s"
 .PHONY : help
 
 

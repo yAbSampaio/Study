@@ -1,22 +1,24 @@
 #include <iostream>
 #include <vector>
-#include "fmath.h"
+#include "operations/operations.h"
+#include "types/vector.h"
+#include "types/point.h"
 
 
 int main(){
     std::cout<<"Hello Word"<<std::endl;
-    Ponto Pont;
+    fgal::Ponto Pont;
     Pont.Novo(2,1);
-    Ponto Pont1;
+    fgal::Ponto Pont1;
     Pont1.Novo(4,2);
-    Vetor vec;
+    fgal::Vetor vec;
     vec.Input(Pont,Pont1);
     vec.Print();
-    Ponto Pont2;
+    fgal::Ponto Pont2;
     Pont2.Novo(0,1);
-    Ponto Pont3;
+    fgal::Ponto Pont3;
     Pont3.Novo(3,2);
-    Vetor vec1;
+    fgal::Vetor vec1;
     vec1.Input(Pont2,Pont3);
     vec1.Print();
     vec = vec+vec1;
@@ -24,13 +26,3 @@ int main(){
     return 0;
 
 }
-
-/*   int x, y;
-
-    std::cout<<"Hello Word"<<std::endl<<"Digite o o valor de x e y :";
-    std::cin>> x >>y;
-    Ponto Pont;
-    Pont.Novo(x,y);
-    std::cout<<"Digite o o valor de x e y :";
-    std::cin>> x >>y;
-    Ponto Pont1;*/
