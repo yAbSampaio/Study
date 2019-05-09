@@ -1,6 +1,5 @@
 import random
 import numpy as np
-#0.008496187379701899, 0.8241515399689018
 
 class Perceptron:
     def __init__(self, alpha, epsilon):
