@@ -71,3 +71,7 @@
     float fgal::Vetor::Module(){
         return sqrt(pow(px,2) + pow(py,2));
     }
+
+    float f::Module(int x,int y){
+        return x+y;
+    }
